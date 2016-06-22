@@ -4,6 +4,7 @@ This repository contains a skeleton based on [Bootstrap Kickstart](https://githu
 
 ## Quick install guide
 $ npm install
+$ npm install -g grunt-cli
 
 ## Starting the App
 $ grunt
