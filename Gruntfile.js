@@ -318,6 +318,7 @@ module.exports = function (grunt) {
 				expand: true,
 				cwd: 'src',
 				src: [
+					'app/**/*.html',
 					'assets/css/*.min.css',
 					'assets/fonts/**/*',
 					'node_modules/bootstrap/fonts/**/*'
@@ -599,6 +600,7 @@ module.exports = function (grunt) {
 			'autoprefixer',
 			'clean:less',
 			'copy:server',
+			'copy:nodeModulesServer',
 			'browserify:vendor',
 			'browserify:clientDevelopment',
 			'cssmin:npmLibsDevelopment',
